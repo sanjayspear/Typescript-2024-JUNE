@@ -67,3 +67,13 @@ In the context of tsconfig.json in TypeScript, the target and module options con
 3. `type in package.json:`
 
     The "type": "module" setting in package.json defines the module system for JavaScript files in your project. By setting it to "module", Node.js will treat .js files as ES modules, allowing the use of import/export. Without this, Node.js defaults to CommonJS and throws errors when encountering ES module syntax[2].
+
+# Java is known for its object-oriented programming features. How does TypeScript compare in terms of OOP support?
+
+ANSWER:
+
+    TypeScript is a multi-paradigm programming language, supporting both object-oriented and functional programming approaches. Like Java, TypeScript allows you to use classes, inheritance, and encapsulation to build object-oriented applications. TypeScript's class syntax is similar to Java, offering constructors, access modifiers (like public, private, and protected), and method overriding [1].
+
+    However, unlike Java, TypeScript also supports functional programming features like first-class functions and higher-order functions, meaning you can write code in a functional style without needing classes.
+
+    This flexibility makes TypeScript more versatile than Java, as it doesn't force developers to stick to object-oriented paradigms alone [5].
